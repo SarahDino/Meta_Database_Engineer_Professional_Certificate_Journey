@@ -1,4 +1,4 @@
-## hello and welcome to my journey in Meta Database Engineer Professional Certificate
+## 👋hello and welcome to my journey in Meta Database Engineer Professional Certificate
 
 its a pathway which contains 9 certifcates : <br>
 1- Introduction to Databases <br>
@@ -12,4 +12,4 @@ its a pathway which contains 9 certifcates : <br>
 9- Coding Interview Preparation <br>
 <br>
 I will be bosting my notes and any solved labs or project here <br>
-thank you and which me luck :)
+✨thank you and which me luck :)✨
