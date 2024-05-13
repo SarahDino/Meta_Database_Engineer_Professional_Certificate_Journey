@@ -12,4 +12,4 @@ its a pathway which contains 9 certifcates : <br>
 9- Coding Interview Preparation <br>
 <br>
 I will be bosting my notes and any solved labs or project here <br>
-✨thank you and which me luck :)✨
+✨thank you and wish me luck :)✨
