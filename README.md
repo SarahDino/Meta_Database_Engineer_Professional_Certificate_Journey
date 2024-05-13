@@ -1,6 +1,6 @@
 ## 👋hello and welcome to my journey in Meta Database Engineer Professional Certificate
 
-its a pathway which contains 9 certifcates : <br>
+its a pathway which contains 9 certificates : <br>
 1- Introduction to Databases <br>
 2- Version Control <br>
 3- Database Structures and Management with MySQL <br>
@@ -11,5 +11,5 @@ its a pathway which contains 9 certifcates : <br>
 8- Database Engineer Capstone <br>
 9- Coding Interview Preparation <br>
 <br>
-I will be bosting my notes and any solved labs or project here <br>
+I will be posting my notes and any labs or project here I complete here <br>
 ✨thank you and wish me luck :)✨
