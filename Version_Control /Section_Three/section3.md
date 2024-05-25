@@ -33,7 +33,7 @@ First is the HTTPS, which contains the HTTPS URL of the repository and I can use
 <br>
 
 this is how to use HTTPS to clone<br>
-![clone https](clonehttps.png)
+![clone https](clonehttps.PNG)
 
 <br>
 
@@ -45,7 +45,7 @@ Finally, I have the GitHub CLI option. there are additional options for GitHub D
 ### .git folder
 
 folder called .git, which is a hidden folder used to track all the changes. In Linux, any folder starting with a dot is a hidden folder. This folder is automatically created when you create a repository. 
-![.git folder](.git.png)
+![.git folder](.git.PNG)
 <br><br>
 
 
@@ -69,39 +69,39 @@ Committing a file in Git is like a save point. Git will save the file, and have 
 ## Add and commit
 
 All the latest files on my local machine are exactly the same as the server that everyone commits to. Git status also tells me that I have nothing to commit and that my working tree is clean. <br>
-![git](git.png)
+![git](git.PNG)
 
 <br>
 
 I added a file called test.txt, using the command git status. git is telling me that I have an untracked file which is test.txt. <br>
-![git](git2.png)
+![git](git2.PNG)
 
 <br>
 
 The purpose of the git add command is letting git to know that I want to track this file, and that it will be included as part of my commit. <br>
 notice it asking if I want to revert those changes. <br>
-![git](git3.png)
+![git](git3.PNG)
 
 <br>
 
 I can use the git restore command Running the command will unstage the file.
 file is back to an untracked status. <br>
-![git](git4.png)
+![git](git4.PNG)
 
 <br>
 
 So once again I'll add the file using git add. The file is back in a tracked state. <br> 
-![git](git5.png)
+![git](git5.PNG)
 
 <br>
 
 git commit command you can use the flag -m which stands for message, to type in a message which will be attached to the commit. <br>
-![git](git6.png)
+![git](git6.PNG)
 
 <br>
 
 this tells me to use git push to publish my local commits All of these changes are on my local machine, and they will only be uploaded to the remote server when I run the push command. <br>
-![git](git7.png)
+![git](git7.PNG)
 
 <br><br>
 
@@ -109,7 +109,7 @@ this tells me to use git push to publish my local commits All of these changes a
 
 Create a new branche, git branch just creates a branch. But git checkout -B moves me from the main branch into the branch that I created. <br>
 To verify that I've been moved between branches run the git branch command. <br>
-![git branche](gitbranche1.png)
+![git branche](gitbranche1.PNG)
 
 <br><br>
 
@@ -119,19 +119,19 @@ These conditions will usually include validating that the standards have been me
 
 -u origin This means that I'm only going to get updates from the upstream, which in this case will be the main branch. <br>
 The result of this is that the origin won't be my main branch anymore. Instead, it's feature lesson. <br>
-![git branche](gitbranche2.png)
+![git branche](gitbranche2.PNG)
 
  <br>
 
 A pull request lets the team know that I've made new changes that I want them to review and that I also want to approve or request changes to the actual pull request itself. <br><br>
 
 on the GitHub UI I'm comparing this with the main branch. Create pull request, the team will then review the changes and either approve or decline them. Once approved, you can then merge your changes to the main branch. This is much cleaner than everyone working off the main branch. <br>
-![git branche](gitbranche3.png)
+![git branche](gitbranche3.PNG)
 
 <br><br>
 
 Check main branch. Then run the git pull command shows the latest changes that were merged in from the feature branch. Notice that the test2.txt file is now available and merged to the main branch. <br>
-![git branche](gitbranche4.png)
+![git branche](gitbranche4.PNG)
 
 
 
@@ -147,30 +147,30 @@ Check main branch. Then run the git pull command shows the latest changes that w
 ## Local and remote
 
 create a new repo (local repo)<br>
-![clone](clone1.png)
+![clone](clone1.PNG)
 
 
 step back to my-first-repo and check if its connected to a remote server or github<br>
-![clone](clone2.png)
+![clone](clone2.PNG)
 
 
 connect the first repo which is a remote repo on github to the seconde repo that is local on your device<br>
-![clone](clone3.png)
+![clone](clone3.PNG)
 
 
 git pull to pull the remote repo, you need to set up a branch that matches the main repo (first repo) so you can be able to access the content <br>
-![clone](clone4.png)
+![clone](clone4.PNG)
 
 
 
 ## Push and Pull
 push from my local repo to the remote repo if there is no conflict the files will be outo merged<br>
-![push](push1.png)<br>
-![push](push2.png)
+![push](push1.PNG)<br>
+![push](push2.PNG)
 
 
 when we checked test.txt using cat command it was empty, so we used git pull and it says there has been an update to test.txt<br>
-![pull](pull1.png)
+![pull](pull1.PNG)
 
 
 <br><br>
@@ -261,7 +261,7 @@ at first we used git branch command to know in which branch are we its the main 
 to make sure its the main branch we used cat .git/HEAD command, ref points to the main branch
 
 when we switched branches the pointer changed. <br>
-![head](head1.png)
+![head](head1.PNG)
 
 <br><br>
 
@@ -280,7 +280,7 @@ Every line will start with the ID and then the author, the date and time when th
 Then the actual change or content is also returned.
 
 The ID is a reference ID of the commit. The same ID might appear in several lines. This happens when a single commit has been made by the same developer.<br>
-![blame](blame1.png)
+![blame](blame1.PNG)
 
 <br><br>
 
@@ -288,33 +288,33 @@ The ID is a reference ID of the commit. The same ID might appear in several line
 The file I will use is called setup.py, which is a Python file.
 
 The output will list all the changes made by all the different developers.<br>
-![blame](blame2.png)
+![blame](blame2.PNG)
 
 <br>
 
 the start of the first line is hash dash ID. It just represents the commit of when a change occurred, then the name of the developer who worked on the file is listed, and then you have the timestamp when the change went in. Next is the line number in sequential order. Finally, the actual change that was implemented.<br>
 
-![blame](blame3.png)
+![blame](blame3.PNG)
 
 
 
 Flag -L with blame command to get smaller subset or a specified lines starts at line 5 and ends on line 15.<br>
-![blame](blame4.png)
+![blame](blame4.PNG)
 
 
 change the format of how the list is displayed. You can also pass in -l flag. the hash dash ID
 is in its full length form. The output is now a bit more detailed.<br>
-![blame](blame5.png)
+![blame](blame5.PNG)
 
 <br>
 
-![blame](blame6.png)
+![blame](blame6.PNG)
 
 
  
 
 you can see detail changes or the actual commit changes of a specific hash dash ID. copy a hash dash ID from the output. use it with git log -p and pass in the hash dash ID.<br>
-![blame](blame7.png)
+![blame](blame7.PNG)
 
 
 
